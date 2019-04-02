@@ -38,6 +38,7 @@ services:
   #MySQL Service
   db:
     image: mysql:5.7.22
+    hostname: laradb
     container_name: lara-db
     restart: unless-stopped
     tty: true
